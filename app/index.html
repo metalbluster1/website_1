@@ -5,80 +5,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment</title>
+    <title>TEMPLATE WEBSITE</title>
 </head>
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    #main-nav {
-        background-color: rgba(0, 0, 0, 0.7);
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-        color: #fff;
-        font-family: sans-serif;
-        align-items: center;
-    }
-
-    .nav-title {
-        font-size: 2rem;
-        cursor: pointer;
-    }
-
-    .nav-title span {
-        color: coral;
-    }
-
-    .sub-nav {
-        display: flex;
-        text-align: center;
-    }
-
-    .sub-nav {
-        list-style: none;
-        box-sizing: border-box;
-        margin-right: -100px;
-        padding: 0 10px;
-    }
-
-    .sub-nav li {
-        margin: 0 10px;
-        padding-left: 30px;
-        cursor: pointer;
-        box-sizing: border-box;
-    }
-
-    .sub-nav li:hover {
-        color: yellow;
-    }
-</style>
 
 <body>
-
-    <!--  Navigation  -->
-    <nav id="main-nav">
-        <h1 class="nav-title"><span>HIGH</span> SCHOOL</h1>
-        <ul class="sub-nav">
-            <li>
-                <h3>HOME</h3>
-            </li>
-            <li>
-                <h3>ABOUT US</h3>
-            </li>
-            <li>
-                <h3>COURSES</h3>
-            </li>
-            <li>
-                <h3>CONTACT</h3>
-            </li>
-            <li>
-                <h3>EXTERNAL</h3>
-            </li>
+    <nav id="main-nav" class="main-nav">
+        <ul id="left-nav">
+            <li id="main-logo"></li>
+        </ul>
+        <ul id="right-nav">
+            <li><a>HOME</a></li>
+            <li><a>PAGES</a></li>
+            <li><a>ABOUT</a></li>
+            <li><a>CONTACT</a></li>
+            <li><a>HELP</a></li>
+            <li><a>LOCATIONS</a></li>
         </ul>
     </nav>
+    <div class="main-section" id="main-section">
+        <h1>FINIBUS DICTUM LOBORTIS</h1>
+        <P>Libero sed ullamcorper nibh dihnissim et eurabitur cursus scelerisque metus sit amet sodales justo auto sit
+            amet proin quis lacus noon nisi</P>
+        <button class="btn">PHARETRA ETIAM</button>
+        <button class="btn">SAGTTIS MASSA</button>
+    </div>
+    <div class="main-products" id="main-products">
+        <div class="sub-products">
+            <img src="">
+            <h2>VIVARA CONGUE</h2>
+            <P>Aenean metus purus consectetur ac sagittis in malesuada quis nunc ut sed risus nulla etiam gravida velit.
+            </P>
+        </div>
+        <div class="sub-products">
+            <h2>LIBERO SODALES</h2>
+            <P>Nec tincidunt maximus ex orci sollicitudin metus ut lacinia ligula nisi vel neque sed non quam eleifend..
+            </P>
+        </div>
+    </div>
+    <div class="sub-products">
+        <h2>LAOREET TORTOR</h2>
+        <P>Pharetra etiam ut nisi non mi scelerisque consectetur maecenas vel elementum lectus cras maximus finibus.</P>
+    </div>
+    </div>
+    </div>
+    <div id="main-details" class="main-details">
+        <div class="details-heading">
+            <p>Integer facillsis enim sollicitudin</p>
+            <h1>DOLOR UT PELLENTESQUE</h1>
+        </div>
+        <div id="sub-details">
+            <div class="sub-details">
+                <h1>EFFICITUR AUCTOR</h1>
+                <P>Cras dui ac pretium egestas nunc maecenas scelerisque leo eget enim interdum at vulputate lorem
+                    pretium in.</P>
+            </div>
+            <div class="sub-details">
+                <h1>TEMPOR ALIQUAM</h1>
+                <P>Sagittis arcu a magna eget cursus lacus consectetur proin imperdiet bibendum elit id molestie ipsum
+                    ut tellus.</P>
+            </div>
+            <div class="sub-details">
+                <h1>METUS CONVALLIS</h1>
+                <P>Orci blandit ac mauris ac gravida maximus nulla curabitur convallis massa sed urna placerat sed
+                    tempor velit.</P>
+            </div>
+        </div>
+        <button class="btn">MATTIS VESTIBULUM</button>
+    </div>
 </body>
 
 </html>
