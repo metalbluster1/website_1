@@ -88,6 +88,7 @@
 #pack-info {
     text-align: center;
     padding: 20px 0;
+    height: 15vh;
 }
 
 
@@ -106,4 +107,23 @@
 }
 .about-domain p {
     padding-bottom: 10px;
+}
+
+.cloud-info {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.cloud-flex {
+    padding: 5px;
+}
+.cloud-flex h1 {
+    padding: 20px 0;
+}
+.cloud-flex p {
+    max-width: 200px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
 }
