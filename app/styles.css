@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +15,7 @@
     padding: 25px 0;
     max-width: 1300px;
     margin: auto;
+    border-bottom-color: black;
 }
 .title {
     padding-left: 10px;
@@ -117,13 +122,54 @@
 }
 .cloud-flex {
     padding: 5px;
+    background-color:darkgray;
+    margin: 5px;
+    align-items: stretch;
 }
 .cloud-flex h1 {
     padding: 20px 0;
 }
 .cloud-flex p {
-    max-width: 200px;
+    max-width: 180px;
     margin: auto;
     padding: 20px 0;
     text-align: center;
+}
+
+.hosting-plans {
+    max-width: 1260px;
+    margin: auto;
+    text-align: center;
+}
+.hosting-plans h1 {
+    font-size: 1.8rem;
+    padding: 60px 10px 20px 10px;
+}
+.hostingp {
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.flex-clouding {
+    display: flex;
+    justify-content: space-around;
+}
+.flex-subclouding {
+    justify-content: space-around;
+    max-width: 350px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.flex-subclouding p {
+    max-width: 200px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.flex-subclouding ul {
+    list-style: none;
+}
+.flex-subclouding ul li h4 {
+    padding: 20px 10px;
 }
