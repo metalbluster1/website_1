@@ -1,0 +1,32 @@
+@media (max-width: 546px) {
+    .wrapping {
+        max-width: 520px;
+        margin: auto;
+        display: block;
+    }
+}
+@media (max-width: 546px) {
+    .media-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 546px) {
+    .wrap {
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .sub-wrap {
+        max-width: 400px;
+        margin: auto;
+    }
+    .footercontent {
+        text-align: start;
+    }
+    .topwrap {
+        padding-top: 40px;
+    }
+    .flex-start {
+        text-align: start;
+    }
+}
