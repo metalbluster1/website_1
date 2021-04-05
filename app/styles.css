@@ -155,6 +155,7 @@ html {
 .flex-clouding {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 .flex-subclouding {
     justify-content: space-around;
@@ -172,4 +173,85 @@ html {
 }
 .flex-subclouding ul li h4 {
     padding: 20px 10px;
+}
+
+.cloud-features {
+    max-width: 1260px;
+    margin: auto;
+    text-align: center;
+}
+.cloud-features h3 {
+    padding: 40px 0 0 20px;
+}
+.cloud-features h1 {
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+.features-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.sub-features {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#testimonial {
+    max-width: 1260px;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial h3 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+.testimonial h1 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.testimonial p {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.testimonial h2 {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 1rem;
+}
+.testimonial h4 {
+    padding-top: 5px;
+    font-size: .8rem;
+    padding-bottom: 60px;
+}
+.footer-flex {
+    max-width: 1260px;
+    margin: auto;
+    display: flex;
+}
+.subfooter {
+    padding: 10px 20px;
+    max-width: 200px;
+    margin: auto;
+}
+.subfooter h2 {
+    padding-bottom: 40px;
+}
+.subfooter h4 {
+    padding: 10px 0;
+}
+.hostingplans, .links, .information {
+    max-width: 150px;
+    margin: auto;
+}
+.copyright {
+    max-width: 1260px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
 }
