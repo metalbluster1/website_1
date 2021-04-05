@@ -1,28 +1,37 @@
 html {
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 128, 0.6);
 }
 
 * {
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.01);
     font-family: Arial, Helvetica, sans-serif;
 }
+#navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px rgba(0, 0, 128, 0.4) solid;
+    z-index: 1;
+}
 #mainnavbar {
-    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: space-between;
     padding: 25px 0;
     max-width: 1300px;
     margin: auto;
-    border-bottom-color: black;
+    background-color: #fff;
 }
 .title {
     padding-left: 10px;
-    color: #fff;
+    color: #333;
+    background-color: #fff;
 }
 #sub-nav {
     display: flex;
+    background-color: #fff;
 }
 #sub-nav ul li {
     flex-direction: row;
@@ -30,44 +39,54 @@ html {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
+    background-color: #fff;
 }
 #sub-nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-size: 1.2rem;
+}
+#sub-nav ul li a:hover {
+    color: blue;
 }
 .listlogin {
     border: 2px #fff solid;
 }
 .link-signup {
-    background-color: palegreen;
+    background-color: rgba(0, 255, 255);
     padding: 5px 10px;
 }
 
 
 
 #main-domain {
-    background-color: peachpuff;
     max-width: 1300px;
     margin: auto;
     text-align: center;
-    height: 100vh;
+    height: 100vh;    
 }
 .domain-heading {
     font-weight: 700;
     font-size: 1.3rem;
     padding: 10px 0;
+    color: #fff;
 }
+
 .main-domain input {
-    padding: 10px 30px;
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 128, 0.1);
     flex-grow: 8;
+    border: 1px #fff solid;
+    color: #fff;
 }
 .main-domain button {
     padding: 10px;
-    background-color: blue;
     color: #fff;
     font-size: 0.9rem;
     flex-grow: 1;
+    background-color: rgba(0, 255, 255);
+    border: none;
+    font-size: 1.4;
 }
 .domain-flex {
     display: flex;
@@ -76,12 +95,23 @@ html {
     max-width: 600px;
     margin: auto;
 }
+.domain-heading {
+    padding-top: 300px;
+    font-size: 2rem;
+}
+.domain-flex button:hover {
+    cursor: pointer;
+}
 .domain-flex input {
     padding: 0 30px;
     margin-right: 5px;
 }
 .domain-flex button {
     margin-left: 5px;
+}
+.price {
+    padding-right: 20px;
+    color: #fff;
 }
 .radio-flex {
     display: flex;
@@ -93,16 +123,26 @@ html {
 #pack-info {
     text-align: center;
     padding: 20px 0;
-    height: 15vh;
+    height: 20vh;
+    background-color: #fff;
+}
+.pack-info h2 {
+    padding: 40px 0;
+}
+.pack {
+    background-color: #fff;
 }
 
 
 
+#about {
+    background-color: #fff;
+}
 #about-domain {
-    background-color: paleturquoise;
     max-width: 1260px;
     margin: auto;
     padding: 20px;
+    background-color: #fff;
 }
 .about-domain h3 {
     padding: 5px 0;
@@ -119,13 +159,17 @@ html {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    
+
 }
 .cloud-flex {
-    padding: 5px;
-    background-color:darkgray;
-    margin: 5px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 8px;
     align-items: stretch;
+    border-radius: 10px;
 }
+
 .cloud-flex h1 {
     padding: 20px 0;
 }
@@ -145,11 +189,25 @@ html {
     font-size: 1.8rem;
     padding: 60px 10px 20px 10px;
 }
+.hosting-title {
+    color: #fff;
+}
 .hostingp {
     max-width: 650px;
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
+    color: #fff;
+}
+
+.basic-cloud {
+    justify-content: flex-start;
+}
+.cloud-vps {
+    transform: translateY(4.17%);
+}
+.advanced-cloud {
+    transform: translateY(4.2%);
 }
 
 .flex-clouding {
@@ -159,9 +217,11 @@ html {
 }
 .flex-subclouding {
     justify-content: space-around;
+    align-items: flex-start;
     max-width: 350px;
     margin: auto;
     flex-wrap: wrap;
+    background-color: #fff;
 }
 .flex-subclouding p {
     max-width: 200px;
@@ -174,6 +234,9 @@ html {
 .flex-subclouding ul li h4 {
     padding: 20px 10px;
 }
+.cloud-mainfeatures {
+    background-color: #fff;
+}
 
 .cloud-features {
     max-width: 1260px;
@@ -182,6 +245,7 @@ html {
 }
 .cloud-features h3 {
     padding: 40px 0 0 20px;
+    color: rgba(0, 0, 255, 0.3);
 }
 .cloud-features h1 {
     padding-bottom: 60px;
@@ -192,10 +256,25 @@ html {
     justify-content: space-around;
 }
 .sub-features {
-    max-width: 600px;
+    max-width: 400px;
     margin: auto;
     padding: 20px;
-    text-align: center;
+    text-align: start;
+}
+.features-top {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px rgba(0, 0, 0, 0.1) solid;
+}
+.sub {
+    padding-top: 30px;
+    border: 2px rgba(0, 0, 0, 0.1) solid;
+    margin: 10px 0;
+    padding: 10px;
+}
+.testi {
+    background-color: rgba(255, 255, 255, 0.89);
+    color: #333;
 }
 
 #testimonial {
@@ -208,6 +287,7 @@ html {
     padding-top: 60px;
     padding-bottom: 10px;
     font-size: 1rem;
+    color: rgba(0, 0, 255, 0.3);
 }
 .testimonial h1 {
     padding-top: 10px;
@@ -228,16 +308,25 @@ html {
     padding-top: 5px;
     font-size: .8rem;
     padding-bottom: 60px;
+    color: rgba(0, 0, 255, 0.3);
+}
+#mainfooter {
+    color: #fff;
+    background-color: rgba(0, 0, 128, 0.4);
+    padding-top: 40px;
 }
 .footer-flex {
     max-width: 1260px;
     margin: auto;
     display: flex;
+    border-bottom: 1px #fff solid;
 }
 .subfooter {
     padding: 10px 20px;
     max-width: 200px;
     margin: auto;
+    align-items: flex-start;
+    
 }
 .subfooter h2 {
     padding-bottom: 40px;
@@ -245,13 +334,24 @@ html {
 .subfooter h4 {
     padding: 10px 0;
 }
-.hostingplans, .links, .information {
+.hostingplans, .links {
     max-width: 150px;
     margin: auto;
+}
+.information {
+    max-width: 150px;
+    margin: auto;
+    flex-wrap: wrap;
+    transform: translateY(-10%);
+}
+.aboutus {
+    transform: translateY(-25%);
 }
 .copyright {
     max-width: 1260px;
     margin: auto;
     text-align: center;
     padding: 50px 0;
+    font-weight: 100;
+    font-size: 0.9rem;
 }
